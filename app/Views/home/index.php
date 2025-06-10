@@ -1,33 +1,21 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Ошибка 404</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            color: #333;
-        }
-        .card {
-            background: #f8f8f8;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .error-code {
-            font-size: 100px;
-            color: #f00;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <div class="error-code">404</div>
-        <p>Страница не найдена</p>
-        <a href="/">Вернуться на главную</a>
-    </div>
-</body>
-</html>
+<!-- views/home/index.php -->
+<h2>Добро пожаловать на мою визитку!</h2>
+
+<div class="welcome-message">
+    <p>Привет! Я Шакиров Дмитрий - профессиональный разработчик.</p>
+    <p>Добро пожаловать на мою визитку!</p>
+</div>
+
+<div class="main-info">
+    <h3>О себе</h3>
+    <ul>
+        <li>Опыт работы в IT: 0 лет</li>
+        <li>Специализация: веб-разработка</li>
+        <li>Ключевые навыки: PHP, JavaScript, HTML, CSS</li>
+    </ul>
+</div>
+
+<div class="contact-cta">
+    <p>Хотите связаться со мной?</p>
+    <a href="?controller=contacts" class="btn">Перейти в контакты</a>
+</div>
